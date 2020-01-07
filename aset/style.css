@@ -1,0 +1,130 @@
+html, body, div, span, h1, p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    line-height: 1;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    background-color: #1ebea5;
+    display: block;
+    width: 100%;
+}
+
+.header span {
+    background-image: url(wa.svg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 50px;
+    width: 200px;
+    margin: 10px 0 0 10px;
+}
+
+.content {
+    max-width: 800px;
+    width: 100%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+h1 {
+    color: #232323;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.nomor {
+    color: #655656;
+}
+
+.tombol {
+    background-color: #01e675;
+    padding: 10px 16px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 16px auto;
+}
+
+.tombol a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.text {
+    background-color: #edf8f5;
+    border-radius: 5px;
+    padding: 20px;
+    word-break: break-word;
+    color: #5b5f62;
+    width: 80%;
+    margin: 25px auto;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: left;
+}
+
+.generator {
+    margin: 20px auto;
+}
+
+.generator span {
+    margin: 6px 0;
+    display: block;
+}
+
+.generator textarea {
+    height: 100px;
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+input[type="number"] {
+    font-size: 16px;
+}
+
+p {
+    margin: 5px 0;
+}
+
+input, textarea {
+    width: 80%;
+    padding: 5px;
+    border: 2px solid #d6c6c6;
+}
+.waerror {max-width: 90%;
+  margin: 0 auto;
+  display: none;
+}
+.waerror a {
+    background: #01e675;
+    border-radius: 4px;
+    padding: 2px 6px 4px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    display: inline-block;
+    margin: 8px;
+}
